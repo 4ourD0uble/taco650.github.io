@@ -102,6 +102,13 @@ h1, h2
 	text-align: center;
 }
 
+.countdown_num
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
 #countdown img
 {
 	
