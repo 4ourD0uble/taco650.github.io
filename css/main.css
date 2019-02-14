@@ -79,7 +79,8 @@ h1, h2
 	display: flex;
 	justify-content: center;
     align-items: center;
-    color: black;
+	color: black;
+	background: #f3f2e6;
 	width: 200px;
 	height: 50px;
 	border: 1px black solid;
