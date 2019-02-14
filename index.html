@@ -15,7 +15,7 @@
 				var diffDays = 1+ Math.round((firstDate.getTime() - today.getTime())/(oneDay));
 				alert("Only cuties may view this page.");
 				if(diffDays > 0){
-					document.getElementById(420).innerHTML = diffDays;
+					document.getElementById("countdown_num").innerHTML = diffDays;
 				}
 			}
 			window.onload = counter;
@@ -39,8 +39,8 @@
 		</div>
 		<!-- Count down -->
 		<div id="countdown" class="section">
-			<h1>Days Until We're Not Apart:</h1>
-			<h2 id = 420>I'm always there.</h2>
+			<h1 id=countdown_title>Days Until We're Not Apart:</h1>
+			<h2 id = countdown_num>I'm always there.</h2>
 			<div class="content_container">
 				<div class="img_caption_container">
 					<img src="imgs/cereal.jpg" />
