@@ -104,13 +104,13 @@ h1, h2
 #countdown img
 {
 	
-	height: 200px;
+	height: 300px;
 }
 
 .content_container
 {
 	display: inline-flex;
-	margin: 20px;
+	margin: 40px;
 }
 
 .img_caption_container
