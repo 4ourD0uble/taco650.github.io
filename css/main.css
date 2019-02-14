@@ -153,6 +153,9 @@ h1, h2
 }
 
 .poem
+{
+	white-space: nowrap;
+}
 
 .project_container img:hover
 {
