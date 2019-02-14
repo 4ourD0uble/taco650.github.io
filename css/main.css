@@ -152,6 +152,8 @@ h1, h2
 	transition: 0.5s;
 }
 
+.poem
+
 .project_container img:hover
 {
 	opacity: 0.7;
