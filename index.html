@@ -12,7 +12,7 @@
 				var today = new Date();
 				var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
 				var firstDate = new Date(2019,02,07);
-				var diffDays = 1+ Math.round((firstDate.getTime() - today.getTime())/(oneDay));
+				var diffDays = Math.round((firstDate.getTime() - today.getTime())/(oneDay));
 				alert("Only cuties may view this page.");
 				if(diffDays > 0){
 					document.getElementById("countdown_num").innerHTML = diffDays;
