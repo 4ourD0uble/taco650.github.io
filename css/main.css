@@ -146,9 +146,9 @@ h1, h2
 
 .project_container img
 {
-	margin: 20px;
-	width: 80px;
-	border-radius: 80px;
+	margin: 60px;
+	width: 150px;
+	border-radius: 150px;
 	transition: 0.5s;
 }
 
