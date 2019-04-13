@@ -11,7 +11,7 @@
 			function counter() {
 				var today = new Date();
 				var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
-				var firstDate = new Date(2019,02,23);
+				var firstDate = new Date(2019,06,00);
 				var diffDays = Math.round((firstDate.getTime() - today.getTime())/(oneDay));
 				if(diffDays > 0){
 					document.getElementById("countdown_num").innerHTML = diffDays;
